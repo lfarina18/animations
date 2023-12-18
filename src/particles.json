@@ -1,0 +1,167 @@
+{
+  "fullScreen": {
+    "enable": false,
+    "zIndex": 0
+  },
+  "background": {
+    "color": {
+      "value": "#E5E5F0"
+    }
+  },
+  "particles": {
+    "number": {
+      "value": 0
+    },
+    "color": {
+      "value": [
+        "#000066",
+        "#9900FF",
+        "#E00043"
+      ]
+    },
+    "shape": {
+      "type": [
+        "square",
+        "triangle",
+        "image"
+      ],
+      "options": {
+        "image": [
+          {
+            "src": "https://academy.profesional.ticmas.io/images/ticmas-symbol.svg",
+            "width": 320,
+            "height": 152,
+            "particles": {
+              "size": {
+                "value": 32
+              }
+            }
+          }
+        ]
+      }
+    },
+    "opacity": {
+      "value": {
+        "min": 0,
+        "max": 1
+      },
+      "animation": {
+        "enable": true,
+        "speed": 2,
+        "startValue": "max",
+        "destroy": "min"
+      }
+    },
+    "size": {
+      "value": {
+        "min": 2,
+        "max": 4
+      }
+    },
+    "links": {
+      "enable": false
+    },
+    "life": {
+      "duration": {
+        "sync": true,
+        "value": 5
+      },
+      "count": 1
+    },
+    "move": {
+      "enable": true,
+      "gravity": {
+        "enable": true,
+        "acceleration": 10
+      },
+      "speed": {
+        "min": 10,
+        "max": 60
+      },
+      "decay": 0.1,
+      "direction": "none",
+      "straight": false,
+      "outModes": {
+        "default": "destroy",
+        "top": "none"
+      }
+    },
+    "rotate": {
+      "value": {
+        "min": 0,
+        "max": 360
+      },
+      "direction": "random",
+      "move": true,
+      "animation": {
+        "enable": true,
+        "speed": 60
+      }
+    },
+    "tilt": {
+      "direction": "random",
+      "enable": true,
+      "move": true,
+      "value": {
+        "min": 0,
+        "max": 30
+      },
+      "animation": {
+        "enable": true,
+        "speed": 50
+      }
+    },
+    "roll": {
+      "darken": {
+        "enable": true,
+        "value": 25
+      },
+      "enable": true,
+      "speed": {
+        "min": 15,
+        "max": 25
+      }
+    },
+    "wobble": {
+      "distance": 30,
+      "enable": true,
+      "move": true,
+      "speed": {
+        "min": -15,
+        "max": 100
+      }
+    }
+  },
+  "emitters": {
+    "life": {
+      "count": 0,
+      "duration": 0.1,
+      "delay": 0.5
+    },
+    "rate": {
+      "delay": 0.2,
+      "quantity": 150
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "bubble"
+      }
+    },
+    "modes": {
+      "bubble": {
+        "opacity": 0.8,
+        "size": 30,
+        "color": {
+          "value": "#12B76A"
+        }
+      }
+    }
+  }
+}
